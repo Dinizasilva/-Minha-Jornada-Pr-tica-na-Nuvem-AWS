@@ -41,7 +41,7 @@ Aqui documento a união entre a base teórica e pratica do programa AWS re/Start
 
 ## O Problema
 A cidade tinha um portal web de previsão de ondas que vive fora do ar porque os servidores locais (on-premises) não aguentavam o tráfego. Obter e configurar
-novos recursos de hardware demorava meses.
+novos recursos de hardware demorava meses. A missão era clara: migrar esse site para o Amazon S3 e transformar ele numa hospedagem estática rápida, barata e confiável — capaz de lidar com volumes ilimitados de tráfego sem precisar de servidor web tradicional.
 
 ## A Solução
 Migrar o site estático para a nuvem usando o Amazon S3, aproveitando agilidade, redução de custos e alta disponibilidade.
@@ -53,10 +53,12 @@ Migrar o site estático para a nuvem usando o Amazon S3, aproveitando agilidade,
   <img src="smart-city-web-hosting-aws.png" width="550" alt="Smart City Web Hosting AWS">
 </p>
 
+## O que eu aprendi sobre o S3 antes de colocar a mão na massa.
+No Amazon S3, os dados são armazenados como objetos (arquivos + metadados) dentro de buckets (contêineres). Qualquer bucket S3 pode ser habilitado pra hospedar um site estático. O bucket armazena o arquivo index.html e os recursos de suporte (scripts do lado do cliente, folhas de estilo, etc.). O acesso ao bucket é controlado por uma política de bucket escrita em JSON — ela diz quem pode acessar e o que pode fazer. Quando os moradores acessam o portal, o navegador envia uma solicitação GET pra URL da página estática, que serve o objeto raiz. 
 
 ## O que foi feito
 Navegação pelo Console da AWS e localização do serviço Amazon S3. Compreensão do papel do S3 como armazenamento de objetos e hospedagem estática
-Análise da arquitetura proposta no cenário do SimuLearn
+Análise da arquitetura proposta no cenário do SimuLearn.
 
 ## Aprendizados e Bastidores
 "Achar o S3 no menu gigantesco do console foi quase um desafio por si só! Mas quando vi o diagrama da arquitetura fazendo sentido, deu aquele clique:
