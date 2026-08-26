@@ -30,3 +30,9 @@ novos recursos de hardware demorava meses.
 Migrar o site estático para a nuvem usando o Amazon S3, aproveitando agilidade, redução de custos e alta disponibilidade.
 
 
+## Arquitetura
+
+<p align="center">
+  <img src="smart-city-web-hosting-aws.png" width="550" alt="Smart City Web Hosting AWS">
+</p>
+
