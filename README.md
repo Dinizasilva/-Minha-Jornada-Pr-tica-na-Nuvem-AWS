@@ -1,6 +1,11 @@
 ## Minha-Jornada-Pratica-na-Nuvem-AWS
 "Do AWS re/Start ao console da AWS: documentando cada clique, cada erro e cada vitória."
 
+ Aqui eu documento a união entre
+a base teórica e pratica do programa AWS re/Start em união hands-on dos laboratórios do AWS Skill Builder (trilha AWS SimuLearn — Cloud Computing Essentials).
+A ideia é simples: transformar conceitos em soluções reais, registrando o passo a passo, os desafios e as lições aprendidas em cada cenário.
+
+
 <table>
   <tr>
     <td align="center">
@@ -13,3 +18,15 @@
     </td>
   </tr>
 </table>
+
+
+## Etapa 01: Fundamentos da computação em nuvem
+
+## O Problema
+A cidade tinha um portal web de previsão de ondas que vive fora do ar porque os servidores locais (on-premises) não aguentavam o tráfego. Obter e configurar
+novos recursos de hardware demorava meses.
+
+## A Solução
+Migrar o site estático para a nuvem usando o Amazon S3, aproveitando agilidade, redução de custos e alta disponibilidade.
+
+
