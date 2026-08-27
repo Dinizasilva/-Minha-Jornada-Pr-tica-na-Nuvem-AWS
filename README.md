@@ -135,6 +135,11 @@ Copiei o endpoint e acessei o site no navegador — funcionou!
    Ver a tela de parabéns e o selo **"YOU DID IT!"** na terceira etapa foi a coroação de todo o processo de investigação e configuração no console da AWS! 🎉
 
 
+<p align="center">
+  <img src="aws-simulearn-completed.png" width="400" alt="AWS SimuLearn Completed">
+</p>
+
+
 ## 💡 O que levo dessa experiência?
 
 * **Visão Prática de Resolução de Problemas:** Entender que mensagens de erro no console são aliadas valiosas de governança e segurança.
