@@ -3,7 +3,7 @@
 
 Aqui irei registrar a minha jornada prática pelos conceitos fundamentais de computação em nuvem, unindo os aprendizados intensivos do programa **AWS re/start (pela Escola da Nuvem)** com os desafios práticos dos laboratórios do **AWS Skill Builder SimuLearn**.
 
-## Índice dos Laboratórios SimuLearn.
+## Índice dos Laboratórios SimuLearn. 
 
 | Etapa | Laboratório                                                   | Status      | Link                      |
 | ----- | ------------------------------------------------------------- | ----------- | ------------------------- |
