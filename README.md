@@ -37,7 +37,7 @@ Aqui irei registrar a minha jornada prática pelos conceitos fundamentais de com
 
 A ideia deste espaço não é apenas guardar código ou respostas, mas documentar os bastidores do aprendizado real: os erros no console, os pequenos travamentos, a investigação de mensagens de erro e a satisfação de ver a validação passar com sucesso! 
 
-## Etapa 01: Fundamentos da computação em nuvem
+## Etapa 01: Fundamentos da computação em nuvem 
 
 ## O Problema
 A cidade tinha um portal web de previsão de ondas que vive fora do ar porque os servidores locais (on-premises) não aguentavam o tráfego. Obter e configurar
