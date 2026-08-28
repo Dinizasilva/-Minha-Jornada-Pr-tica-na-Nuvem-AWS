@@ -120,19 +120,7 @@ Habilitei a hospedagem de site estático no bucket
 Configurei index.html como documento de índice e error.html como documento de erro
 Copiei o endpoint e acessei o site no navegador — funcionou!
 
-## Etapa 02:
-
-1. **O Obstáculo de Segurança (`disableApiStop`):**
-   Ao tentar interromper a instância para redimensioná-la, esbarrei em uma trava de segurança do ambiente:
-
-   *O aprendizado real:* Entendi na prática a importância das proteções contra interrupção acidental em ambientes de produção. Tive que navegar pelas configurações de instância no console, desativar essa proteção para só então conseguir gerenciar o ciclo de vida da máquina.
-
-2. **Escalabilidade e a Validação Final (Terceira Etapa - DIY):**
-   Para garantir que o site de ondas e marés suportasse a demanda, o objetivo da seção *DIY (Faça você mesmo)* era alterar o tipo da instância para uma capacidade maior de uso geral: o modelo **`m4.large`**.
-   
-   Após ajustar o tipo da instância, salvá-la e colocá-la novamente no estado de execução (`Running`), submeti o ID da instância (`i-05732bc48933151b2`) no formulário de validação do laboratório. 
-   
-   Ver a tela de parabéns e o selo **"YOU DID IT!"** na terceira etapa foi a coroação de todo o processo de investigação e configuração no console da AWS! 🎉
+### Ver a tela de parabéns e o selo **"YOU DID IT!"** na terceira etapa foi a coroação de todo o processo de investigação e configuração no console da AWS! 🎉
 
 <p align="center">
   <img src="aws-simulearn-completed.png" width="400" alt="AWS SimuLearn Completed">
